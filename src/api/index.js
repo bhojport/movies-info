@@ -1,0 +1,1 @@
+export { requestMovies as apiRequestMovies } from './movies'
