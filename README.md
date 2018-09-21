@@ -9,21 +9,21 @@ git clone https://github.com/bhojport/movies-info.git
 
 2. Install node modules
 
-- Using NPM:
+###Using NPM:
 
 npm install
 
-- Using yarn:
+###Using yarn:
 
 yarn install
 
 3. Start the project
 
-- Using NPM:
+###Using NPM:
 
 npm start
 
-- Using yarn
+###Using yarn
 
 yarn start
 
