@@ -5,15 +5,15 @@ A very basic application showing you a better file structure.
 ## Running on local machine
 1. Clone the repository
 
-git clone https://github.com/bhojport/movies-info.git
+- git clone https://github.com/bhojport/movies-info.git
 
 2. Install node modules
 
-yarn install
+- yarn install
 
 3. Start the project
 
-yarn start
+- yarn start
 
 
 
