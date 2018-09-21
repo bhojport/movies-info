@@ -1,8 +1,6 @@
 ## Movies Info
 The movies database - Using React, React Router and Redux
 
-A very basic application showing you a better file structure.
-
 ## Running on local machine
 1. Clone the repository
 
