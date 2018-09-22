@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux'
 import { store } from 'store'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
+import 'bootstrap/dist/js/bootstrap.bundle';
+
 // import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';

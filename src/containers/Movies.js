@@ -6,7 +6,6 @@ import { apiRequestMovies } from 'api'
 import { mapStateToProps, mapDispatchToProps } from './connector'
 import { modifyNoteUtil } from 'utils'
 
-
 class MoviesContainer extends Component {
   state = {
     movieDetail: {},
@@ -58,7 +57,7 @@ class MoviesContainer extends Component {
     const { REACT_APP_API_URL: api_url, REACT_APP_API_KEY: api_key } = process.env
     const { id } = this.props.match.params
     const discoverMovieUrl = `${api_url}/discover/movie?api_key=${api_key}`
-    const movieDetailUrl = `${api_url}/movie/${id}?api_key=${api_key}`
+    const movieDetailUrl = `${api_url}/movie/${id}?api_key=${api_key}&append_to_response=videos`
 
     if(id) {
       apiRequestMovies(movieDetailUrl).then(data => {
